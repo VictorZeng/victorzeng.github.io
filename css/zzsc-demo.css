@@ -1,4 +1,4 @@
-/* @import url(http://fonts.useso.com/css?family=Raleway:200,500,700,800); */
+@import url(http://fonts.useso.com/css?family=Raleway:200,500,700,800);
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?rretjt');
@@ -24,13 +24,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-body, html {
-		font-size: 100%; 	padding: 0; margin: 0;
-		height: 100%;
-		width: 100%;
-		overflow-x:hidden;
-		overflow-y:hidden;
-}
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
 /* Reset */
 *,
@@ -53,8 +47,8 @@ body, html {
 }
 
 body{
-	background: #2a2b2d;
-	color: #999;
+	background: #494A5F;
+	color: #D5D6E2;
 	font-weight: 500;
 	font-size: 1.05em;
 	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
@@ -65,13 +59,6 @@ a:hover,a:focus{color:#74777b;}
 .zzsc-container{
 	margin: 0 auto;
 	overflow: hidden;
-	text-align:center;
-	position: fixed;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	z-index:99; /* makes sure it stays on top */
 }
 
 .bgcolor-1 { background: #f0efee; }
